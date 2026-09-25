@@ -77,10 +77,9 @@
     <types><members>*</members><name>DecisionTableDatasetLink</name></types>
 
     <!-- Revenue Cloud — Context Service -->
+    <!-- ContextAttr y ContextParam viajan dentro de ContextDefinition -->
     <types><members>*</members><name>ContextDefinition</name></types>
-    <types><members>*</members><name>ContextMapping</name></types>
-    <types><members>*</members><name>ContextAttr</name></types>
-    <types><members>*</members><name>ContextParam</name></types>
+    <types><members>*</members><name>ContextUseCaseMapping</name></types>
 
     <!-- Revenue Cloud — Pricing & Procedures -->
     <types><members>*</members><name>ExpressionSetDefinition</name></types>
@@ -98,7 +97,8 @@
 
     <!-- Revenue Cloud — Document Generation (CLM / DocGen) -->
     <types><members>*</members><name>DocumentTemplate</name></types>
-    <types><members>*</members><name>DocumentClause</name></types>
+    <types><members>*</members><name>DocumentGenerationSetting</name></types>
+    <types><members>*</members><name>ClauseCatgConfiguration</name></types>
 
     <!-- Revenue Cloud — Approvals -->
     <types><members>*</members><name>ApprovalProcess</name></types>
@@ -107,9 +107,10 @@
     <types><members>*</members><name>GenAiPlugin</name></types>
     <types><members>*</members><name>GenAiFunction</name></types>
     <types><members>*</members><name>GenAiPlanner</name></types>
-    <types><members>*</members><name>BotDefinition</name></types>
+    <types><members>*</members><name>GenAiPlannerBundle</name></types>
+    <types><members>*</members><name>Bot</name></types>
     <types><members>*</members><name>BotVersion</name></types>
-    <types><members>*</members><name>PromptTemplate</name></types>
+    <types><members>*</members><name>GenAiPromptTemplate</name></types>
 
     <!-- Experience Cloud -->
     <types><members>*</members><name>Network</name></types>
